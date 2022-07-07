@@ -1,0 +1,139 @@
+#os-container {
+    overflow: hidden;
+    width: 90vw;
+    min-width: 260px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: hsl(224, 23%, 55%);
+    box-shadow: 10px 10px 10px hsl(224, 23%, 89%);
+}
+
+#os-illustration {
+    background-image: url(/images/illustration-hero.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+}
+
+#os-title {
+    margin-top: 10%;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.os-description {
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1.75em;
+}
+
+.os-subscrition-method-container {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    flex-flow: row wrap;
+    padding: 0 5%;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.os-subscrition-method{
+    position: relative;
+    right: 15px;
+}
+
+.os-subscrition-method-container a {
+    color: hsl(245, 75%, 52%);
+}
+
+.os-subscrition-method-container img, .os-subscrition-method-container .os-subscrition-method-text {
+    margin-right: 15px;
+}
+
+.os-subscrition-method-text p {
+    margin: 0;
+}
+
+.os-subscrition-method-text label {
+    font-weight: 900;
+}
+
+.os-subscrition-method-text label {
+    color: hsl(223, 47%, 23%);
+}
+
+.os-subscrition-method-container a {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.os-subscrition-method-container a:hover {
+    text-decoration: none;
+    color: hsl(245deg 57% 68%);
+}
+
+.os-subscrition-method-container div:first-child {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#os-payment-btn {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 10px 10px 10px hsl(224, 23%, 90%);
+    transition: 0.2s ease-in-out;
+}
+
+#os-cancel-btn {
+    background-color: transparent;
+
+    color: hsl(224, 23%, 55%);
+}
+
+.os-container-btn {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.os-container-btn:focus-visible {
+    border: none;
+}
+
+.os-container-btn p {
+    display: inline-block;
+}
+
+#os-cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+#os-payment-btn:hover {
+    background-color: hsl(245deg 57% 68%);
+}
+
+@media screen and (min-width: 376px) {
+    #os-container {
+        width: 25vw;
+        min-width: 400px;
+        max-width: 450px;
+    }
+    #os-title {
+        margin-top: 40px;
+    }
+}

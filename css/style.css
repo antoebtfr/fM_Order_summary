@@ -1,0 +1,37 @@
+body{
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+ 
+    background-position: 100% 600%;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;
+}
+
+@media screen and (max-width: 375px) {
+
+    body{
+        background-image: none;
+        background-color: #D6E1FF;
+    }
+
+
+}
+
+button{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    height: 10%;
+}
+
+
+
